@@ -8,7 +8,6 @@ body {
   background: linear-gradient(to right, green, yellow);
 }
 
-
 .nav-link {
   font-size: 24px;
   font-weight: bolder;
@@ -18,14 +17,9 @@ body {
   width: 120px;
 }
 
-.container {
+.container11 {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 0 1.5rem;
-
 }
 
 img {
@@ -126,11 +120,10 @@ nav {
     width: 200px;
   }
 
-  .container {
+  .container11 {
     background: linear-gradient(to right, red, orange);
     border-radius: 24px;
     margin: 16px;
-    display: flex;
-    align-items: center;
+    text-align: center;
   }
 }
