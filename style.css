@@ -8,6 +8,11 @@ body{
   background: linear-gradient(to right, green, yellow);
 }
 
+nav{
+  background-color: aquamarine;
+  height: 100px;
+}
+
 .container{
   display: flex;
   flex-wrap: wrap;
