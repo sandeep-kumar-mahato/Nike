@@ -12,16 +12,17 @@ body {
 }
 
 .logo1 {
-  width: 150px;
+  width: 132px;
   padding-left: 24px;
 }
 
 nav {
   background: linear-gradient(to right, green, yellow);
   display: flex;
-  padding: 0% 6%;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  height: 12vh;
+
 }
 
 nav img {
@@ -33,10 +34,13 @@ nav img {
   text-align: right;
 }
 
+.nav-links ul{
+  margin: 0;
+}
+
 .nav-links ul li {
   list-style: none;
   display: inline-block;
-  padding: 8px 12px;
   position: relative;
 }
 
@@ -137,7 +141,7 @@ h1 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-@media (max-width:700px) {
+@media (max-width:900px) {
   img {
     width: 200px;
   }
