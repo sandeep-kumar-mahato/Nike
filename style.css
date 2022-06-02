@@ -19,10 +19,8 @@ body {
 nav {
   background: linear-gradient(to right, green, yellow);
   display: flex;
-  align-items: center;
   justify-content: space-between;
   height: 12vh;
-
 }
 
 nav img {
